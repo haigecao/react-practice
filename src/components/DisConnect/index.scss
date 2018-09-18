@@ -1,0 +1,139 @@
+.errorStatus {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: #efeff4;
+  font-family: '微软雅黑';
+  left: 0;
+}
+.errorStatus .verAlign {
+  position: relative;
+  top: 25%;
+}
+#error .connnectLoad {
+  position: relative;
+  top: 25%;
+}
+
+#error .connectFixedTop {
+  position: relative;
+  top: 100px;
+}
+
+.errorStatus .verCenter {
+  position: relative;
+  top: 25%;
+}
+
+.errorStatus .bgImage {
+  margin: 0 auto 15px;
+  height: 160px;
+  width: 180px;
+  background-repeat: no-repeat;
+}
+
+.errorStatus .bigTitle {
+  font-size: 18px;
+  color: #222;
+}
+
+.errorStatus .subTitle {
+  font-size: 12px;
+  color: #777;
+}
+
+.disConnect .bgImage {
+  background-image: url(./disConnect.png?__sprite);
+}
+.noCourse .bgImage {
+  background-image: url(./noCourse.png?__sprite);
+}
+.pageFail .bgImage {
+  background-image: url(./pageFail.png?__sprite);
+}
+
+.emptyArticle .bgImage {
+  background-image: url(./emptyArticle.png?__sprite);
+  background-position: center center;
+}
+
+.emptyArticle .subTitle {
+  font-size: 16px;
+}
+
+.oldTeacher {
+  .bigTitle {
+    font-size: 16px;
+    color: #777;
+    opacity: 0.9;
+  }
+  .subTitle {
+    opacity: 0.5;
+  }
+  .bgImage {
+    background-image: url(./oldTeacher.png?__sprite);
+  }
+}
+
+.no-course,
+.no-comment {
+  height: 100%;
+}
+
+.exam-empty {
+  background-color: #ededed;
+}
+
+.empty-tip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-tip .wrapper {
+  text-align: center;
+
+  &:before {
+    content: '';
+    display: block;
+    height: 150px;
+    width: 180px;
+    margin: 0 auto 15px;
+  }
+
+  .title {
+    color: #777;
+    opacity: 0.9;
+  }
+
+  .description {
+    line-height: 24px;
+    font-size: 12px;
+    color: #777;
+    opacity: 0.5;
+  }
+}
+
+.no-course .wrapper:before {
+  background-image: url(./no-course.png);
+  background-size: 180px 150px;
+}
+
+.no-comment .wrapper:before {
+  background-image: url(./no-comment.png);
+  background-size: 180px 150px;
+}
+.comment-fail {
+  min-height: 400px;
+}
+.comment-fail .wrapper:before {
+  background-image: url(./pageFail.png);
+  background-size: 180px 150px;
+}
+
+.no-evaluation .wrapper:before {
+  background-image: url(./no-evaluation.png);
+  background-size: 180px 160px;
+  height: 160px;
+}
