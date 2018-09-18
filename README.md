@@ -1,16 +1,29 @@
-# LaTex editor
+# react 最佳实践
 
 # 安装使用
 
 ```shell
-$ tnpm i
-$ tnpm run dev
+$ npm i
+$ npm run dev
 ```
 
 # Demo input
 
+安装 wistle
+npm i -g wistle
+w2 start
+
+配置
+
 ```
-\rm 2H_2 + \rm O_2 \rightarrow 2H_2 O
-3\ce{Cu}+8\ce{HNO3}\rightarrow 3\ce{Cu(NO3)2}+2\ce{NO}\uparrow+4\ce{H2O}\\
-\ce{ $x\,$ Na(NH4)HPO4 ->[\Delta] (NaPO3)_{ $x$ } + $x\,$ NH3 ^ + $x\,$  H2O }\\
+//localhost:7788 resCors://enable
+/\.url\.cn/ resCors://*
+/\.qq\.com/ resCors://*
+
+
+http://www.qq.com/cgi-bin/ajax	xfile:// *** /mock/ajax.json
+http://www.qq.com/cgi-bin/ajax1	xfile:// *** /mock/ajax1.json
+
+//127.0.0.1:7788 http://127.0.0.1:7788
+//www.qq.com http://127.0.0.1:7788
 ```
